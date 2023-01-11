@@ -1,0 +1,159 @@
+.blog {
+  padding: 70px 0px 90px;
+}
+.container {
+}
+.blog__heading {
+  text-align: center;
+}
+.blog__title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+
+  color: #000000;
+}
+.blog__descripton {
+  margin-bottom: 86px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+
+  color: #999999;
+}
+.blog__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 570px);
+  gap: 40px 30px;
+}
+.blog__card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 76px;
+}
+
+.blog__img {
+  margin-right: 30px;
+}
+.blog__content {
+  max-width: 370px;
+}
+.blog__name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+.blog__text {
+  margin-bottom: 10px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #777777;
+}
+.blog__link {
+  font-size: 16px;
+  color: #000000;
+}
+.blog__link:hover {
+  text-decoration: underline;
+}
+.blog__link::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../img/blog/feather-icon/chevron-right.svg");
+  background-position: center;
+  background-size: auto;
+  margin-left: 2px;
+  vertical-align: middle;
+  transition: margin 0.2s ease-in;
+  -webkit-transform: margin 0.2s, ease-in;
+  -moz-transform: margin 0.2s, ease-in;
+  -ms-transform: margin 0.2s, ease-in;
+  -o-transform: margin 0.2s, ease-in;
+  -webkit-transition: margin 0.2s ease-in;
+  -moz-transition: margin 0.2s ease-in;
+  -ms-transition: margin 0.2s ease-in;
+  -o-transition: margin 0.2s ease-in;
+}
+.blog__link:hover:after {
+  margin-left: 10px;
+}
+
+/* *Section Subscribe* */
+.subscribe {
+  padding-bottom: 100px;
+}
+.container {
+}
+.subscribe__content {
+  max-width: 832px;
+  margin: 0 auto;
+}
+.subscribe__title {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #000000;
+}
+.subscribe__text-wrapper {
+  margin: 0 auto 26px;
+  max-width: 630px;
+  text-align: center;
+}
+.subscribe__text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+}
+.subscribe-form {
+  text-align: center;
+}
+.subscribe-form__input {
+  width: 230px;
+  height: 42px;
+  padding: 10px 10px 10px;
+  background: #ffffff;
+  border: 1px solid #f72464;
+  border-radius: 4px;
+
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.subscribe-form__input::placeholder {
+  color: #999999;
+}
+.subscribe__btn {
+  margin-left: 10px;
+  padding: 9px 30px 11px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+
+  color: #ffffff;
+}

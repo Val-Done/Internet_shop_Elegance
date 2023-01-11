@@ -1,0 +1,47 @@
+@import "./blocks/_base.css";
+@import "./blocks/_header.css";
+@import "./blocks/_products.css";
+@import "./blocks/_blog.css";
+@import "./blocks/_footer.css";
+
+
+
+
+
+/* *Info-section* */
+.info-section {
+  padding: 68px 0px;
+  position: relative;
+  background-image: url('../img/info-section/info_bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.info-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.info-section__row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.info-section__title {
+  font-size: 52px;
+line-height: 1;
+color: #FFFFFF;
+}
+
+/* *Feature-product* */
+.featured-products {
+  padding: 70px 0px;
+}
+
+/*  */

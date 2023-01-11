@@ -1,0 +1,116 @@
+.header {
+}
+.container {
+}
+.header__nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0;
+}
+.header__logo {
+  margin-right: 83px;
+}
+.logo {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+
+  color: #000000;
+}
+.logo,
+a.logo:hover {
+  text-decoration: underline;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__item {
+  margin-right: 30px;
+}
+.nav__item:last-child {
+  margin-right: 0px;
+}
+.nav__link {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #000000;
+}
+.nav__link:hover {
+  text-decoration: underline;
+}
+.nav__cart {
+  margin-left: auto;
+}
+.cart__count {
+  padding: 2px 0px;
+  position: absolute;
+  top: -10px;
+  right: -11px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  background: #f72464;
+  font-family: "Noto Sans";
+
+  font-weight: 700;
+  font-size: 12px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.cart__link {
+  display: inline-block;
+  position: relative;
+}
+.cart_img {
+}
+.header__content-row {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.header__content {
+  max-width: 670px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 11;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.header__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+  margin-bottom: 20px;
+}
+.header__text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+.header__btn {
+}
+.header__img {
+  object-fit: cover;
+}
